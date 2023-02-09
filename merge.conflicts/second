@@ -1,8 +1,0 @@
-function stringIncludes(str, char) {
-  for (let letter of str) {
-    if (char === letter) {
-      return true;
-    }
-  }
-  return false;
-}
