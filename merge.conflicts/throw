@@ -1,6 +1,6 @@
 function stringIncludes(str, char) {
-  for (let i = 0; i < str.length; i++) {
-    if (str[i] == char) {
+  for (let letter of str) {
+    if (char === letter) {
       return true;
     }
   }
